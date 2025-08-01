@@ -1,0 +1,18 @@
+.card {
+  margin-bottom: 16px;
+  background-color: #f3f2f2;
+}
+
+.body {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cardBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
